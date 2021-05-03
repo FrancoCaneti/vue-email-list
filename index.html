@@ -13,17 +13,13 @@
 
     <div id="app">
         <h2>Lista E-mail:</h2>
-       <ol>
-           <li>
-               <h2>
-
+               <h2 v-for="email in emailList">
+                   {{email}}  
                </h2>
-           </li>
-       </ol>
     </div>
 
-
-
+      <!--axios-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script src="./script.js"></script>
 </body>
